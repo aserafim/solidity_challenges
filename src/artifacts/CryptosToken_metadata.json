@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "get_name",
 				"outputs": [
 					{
@@ -39,6 +44,19 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -86,11 +104,11 @@
 	},
 	"sources": {
 		"src/smart+contract.sol": {
-			"keccak256": "0xf4c04c46355b551c8c00da99365fd3c28c784075b3e305f01edba97a3ed622de",
+			"keccak256": "0xdd9b38d5b07e3282443e9c5139c2fef2d17b14607429fad95cfdfbabda968247",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c5f48157483def136dc212c25ee331c9d1086921714622c28fe973dce5fdc8b4",
-				"dweb:/ipfs/Qmd9kKMj3mCeNJ4BwkaoTmeUKfsHvr34AeK27NebJbTU3n"
+				"bzz-raw://2970a1dc0a21a8ebe71710ad2aa7c0b286a14ff9d5bc87a9f8dc273fa09fd220",
+				"dweb:/ipfs/QmPFDpxVJarwfWttyoR7R9jU4VR49aWKfzpUPUEbz8GDhV"
 			]
 		}
 	},
