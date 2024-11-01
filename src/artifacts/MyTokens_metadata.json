@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tokens",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/smart_contratct_2.sol": "MyTokens"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"src/smart_contratct_2.sol": {
+			"keccak256": "0x2a5071d46dcf4f7a28b08e679b05fa1521231277ce2ec7045c9e9bcc7afae2b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cdf6b5ca263b2f2371e080b57b3e92657099a54458520b516f86504c9dae3572",
+				"dweb:/ipfs/QmTwELrCYBNoCsSaHzbtqz6dHZBNyhia9m99hSLJUVACEQ"
+			]
+		}
+	},
+	"version": 1
+}

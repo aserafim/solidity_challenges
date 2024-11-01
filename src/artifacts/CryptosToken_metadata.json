@@ -89,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"src/smart+contract.sol": "CryptosToken"
+			"src/smart_contract.sol": "CryptosToken"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -103,7 +103,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/smart+contract.sol": {
+		"src/smart_contract.sol": {
 			"keccak256": "0xdd9b38d5b07e3282443e9c5139c2fef2d17b14607429fad95cfdfbabda968247",
 			"license": "MIT",
 			"urls": [
