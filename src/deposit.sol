@@ -5,7 +5,7 @@ pragma solidity 0.8.28;
 contract Deposit{
     uint public sentValue;
     address public owner;
-
+   
     constructor(){
         owner = msg.sender;
     }
