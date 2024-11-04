@@ -7,12 +7,30 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -36,6 +54,25 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
+					}
+				],
+				"name": "transferBalance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -67,11 +104,11 @@
 	},
 	"sources": {
 		"src/deposit.sol": {
-			"keccak256": "0x914c99d84aaa915323d39c8a5d1dac9fc8544ee48e04271123bcc325f32f2901",
+			"keccak256": "0xed18a5b7de82ba20fbf73efca5ca8b9208a6828aff4ba74b598aa9285d8ed594",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f0e62cf575646eb0d779a43eca4fc21e833b43e4df6d5a2e3a1f59b19b8a735",
-				"dweb:/ipfs/QmT4DFzUfrQT3A5tjxdK8o3NadoJMPqdJM5BYQBRBUyCFL"
+				"bzz-raw://f0e7b4226de5b4ebe2e2f8126fcfb2bee779b005e9a55b0cc0d32bc983467aab",
+				"dweb:/ipfs/Qmbsp2GBFjwur3RekfwTszeBDgVPr32GGhLNtXdbkBfoRX"
 			]
 		}
 	},
