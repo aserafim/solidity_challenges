@@ -7,20 +7,29 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "x",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [],
+				"name": "xx",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -36,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"src/deposit_solution.sol": "Deposit"
+			"src/visibility.sol": "B"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -50,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"src/deposit_solution.sol": {
-			"keccak256": "0x0f94517b90aeda1d10bdf83e7d6cf117c8b9652af0ab7f94b9e289aa7c8a90fd",
-			"license": "GPL-3.0",
+		"src/visibility.sol": {
+			"keccak256": "0xbd2c1caf163956b54d0ca25250f3bb5951fb72edfce588ee989ca43accab2666",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://a6381687081d92eb64b1c697b588ccda612c421d93356e35e629a86445931734",
-				"dweb:/ipfs/QmaZLnsgvDivwYX1mPSq2fN1Zajw3rnqSSQnS6BQecsaSH"
+				"bzz-raw://e4ed191a787d03dd0acc9bca819a2afb44b2490c1ea82be73592b1727dc08f9c",
+				"dweb:/ipfs/QmTgR8ZoUhbMyZU7uGJvvjdgHnFhewQzMQeqmAH6MDQ5mu"
 			]
 		}
 	},
